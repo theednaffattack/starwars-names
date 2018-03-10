@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Eddie Naff",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theednaffattack/starwars-names.git"
+  },
+  "author": "Eddie Naff <eddienaff@gmail.com> (http://eddienaff.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theednaffattack/starwars-names/issues"
+  },
+  "homepage": "https://github.com/theednaffattack/starwars-names#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
 }
