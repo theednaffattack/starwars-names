@@ -4,8 +4,8 @@
   "description": "Getting started with npm releases, CI, and commitizen",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js",
-    "t-watch": "mocha src/index.test.js -w",
+    "test": "mocha src/index.test.js -w",
+    "test:single": "mocha src/index.test.js",
     "semantic-release": "semantic-release pre && npm publish",
     "commit": "git-cz"
   },
