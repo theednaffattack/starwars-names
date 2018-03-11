@@ -14,3 +14,8 @@ https://egghead.io/lessons/javascript-setting-up-github
 - [Travis CI](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/)
 - ​
 
+
+
+### Release Adjustments
+
+Release #1.3.0 is correct but one commit behind where it should be. The prior commit was mislabeled as a fix.
