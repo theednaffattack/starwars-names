@@ -4,12 +4,14 @@
   "description": "Getting started with npm releases, CI, and commitizen",
   "main": "src/index.js",
   "scripts": {
-    "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "check-coverage":
+      "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "commit": "git-cz",
-    "report-coverge": "cat ./coverage/lcov.info | codecov",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "semantic-release": "semantic-release",
     "test": "mocha src/index.test.js -w",
-    "test:single": "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js",
+    "test:single":
+      "istanbul cover -x *.test.js _mocha -- -R spec src/index.test.js",
     "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
@@ -19,9 +21,11 @@
   "author": "Eddie Naff <eddienaff@gmail.com> (http://eddienaff.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theednaffattack/starwars-names-with-rebels/issues"
+    "url":
+      "https://github.com/theednaffattack/starwars-names-with-rebels/issues"
   },
-  "homepage": "https://github.com/theednaffattack/starwars-names-with-rebels#readme",
+  "homepage":
+    "https://github.com/theednaffattack/starwars-names-with-rebels#readme",
   "dependencies": {
     "unique-random-array": "1.0.0"
   },
