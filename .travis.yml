@@ -1,3 +1,4 @@
+sudo: false
 language: node_js
 cache:
   directories:
@@ -5,10 +6,11 @@ cache:
 notifications:
   email: false
 node_js:
-  - '9'
-  - '8'
-  - '6'
-  - '4'
+  - "stable"
+before_install:
+  - npm i -g npm@^5.0.0
+script:
+  - npm run test:single
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
