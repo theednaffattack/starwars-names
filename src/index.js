@@ -4,7 +4,7 @@ const getRandomItem = uniqueRandomArray(starWarsNames);
 
 module.exports = {
   all: starWarsNames,
-  random: uniqueRandomArray(starWarsNames)
+  random: random
 };
 
 function random(number) {
@@ -12,7 +12,7 @@ function random(number) {
     return getRandomItem();
   } else {
     const randomItems = [];
-    for (let i = 0; i < numer; i++) {
+    for (let i = 0; i < number; i++) {
       randomItems.push(getRandomItem());
     }
     return randomItems;
